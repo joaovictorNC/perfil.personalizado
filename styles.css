@@ -1,17 +1,13 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(to top, #0120EB, rgb(92, 37, 20) 60%);
+    background-image: linear-gradient(to top, #0120EB, rgb(52, 171, 245) 60%);
     background-attachment: fixed;
     text-align: center;
     background-color: rgb(52, 106, 207);
     margin: auto;
 }
-img {
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px rgba(66, 21, 21, 0.63);
-    padding: 10px;
-}
+
 h1 {
     text-shadow: 2px 2px 3px rgb(158, 158, 158);
 }
@@ -26,4 +22,17 @@ h3 {
     text-align: justify;
     text-align: center;
 }
-
+.imagem {
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(66, 21, 21, 0.63);
+    padding: 10px;
+}
+.primeiro {
+    text-align: right;
+}
+.segundo {
+    text-align: justify;
+}
+.terceiro {
+    text-align: center;
+}
